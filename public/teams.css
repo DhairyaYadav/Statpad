@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background: url("bckground.png");
+    background-size: 100%;
+} */
+
+#navbar{
+    border: 3px solid #7c94d2f7;
+    flex-direction: row;
+    background: url("./stockimage/fornav.jpeg");
+    background-size: 200%;
+    z-index: 1;
+    background-blend-mode: difference;
+    background-size: contain;
+    height: 15vh;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo{
+    width: 15vw;
+    
+}
+
+#navbar ul {
+    margin: 44px 63px;
+    font-size: 1.3rem;
+}
+
+
+#navbar ul li{
+    /* list-style: none; */
+    padding: 2px 70px;
+    margin-left: 76px;
+    background-color: rgba(240, 248, 255, 0.518);
+    cursor: pointer;
+}
+
+#more-content li {
+    background-color: white;
+    color: orangered;
+}
+
+#teamlist{
+    margin: 23px 39px;
+    padding: 12px 20px
+}
+
+.container{
+    height: 15vh;
+    width: 43vw;
+    margin: 12px 12px;
+    border-radius: 38px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+.container h1{
+    padding-left: 41px;
+    padding-top: 20px;
+}
+
+.container:hover{
+    border: 5px solid black;
+
+}
+
+.container:active{
+    opacity: 0.7;
+    color: rgb(16, 15, 15);
+    cursor: pointer;
+}
+
+.teamoutline{
+    margin-left: 4px;
+    height: 12vh;
+    width: 6vw;
+    /* background: url("teamsgraphics/spotlight.jpg"); */
+    background: url("ipl6.png");
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
+
+#gt{
+    background: #1c2033;
+    border-bottom: 6px solid #dbbe6f;
+    border-left: 6px solid #dbbe6f;
+    border-right: 6px solid #dbbe6f;
+}
+
+#csk{
+    background: yellow;
+    border-bottom: 6px solid #19398a;
+    border-left: 6px solid #19398a;
+    border-right: 6px solid #19398a;
+}
+
+#mi{
+    background: RGB(0, 75, 141);
+    border-bottom: 6px solid RGB(255, 209, 65);
+    border-left: 6px solid RGB(255, 209, 65);
+    border-right: 6px solid RGB(255, 209, 65);
+}
+
+#lsg{
+    background: RGB(0, 87, 226);
+    border-bottom: 6px solid RGB(242, 139, 0);
+    border-left: 6px solid RGB(242, 139, 0);
+    border-right: 6px solid RGB(242, 139, 0);
+}
+
+#rcb{
+    background: #c03;
+    border-bottom: 6px solid RGB(43, 42, 41);
+    border-left: 6px solid RGB(43, 42, 41);
+    border-right: 6px solid RGB(43, 42, 41);
+}
+
+#rr{
+    background: rgb(246 29 159);
+    border-bottom: 6px solid #074EA2;
+    border-left: 6px solid #074EA2;
+    border-right: 6px solid #074EA2;
+}
+
+#kkr{
+    background: #3A225D;
+    border-bottom: 6px  solid #F7D54E;
+    border-left: 6px  solid #F7D54E;
+    border-right: 6px  solid #F7D54E;
+}
+
+#pbks{
+    background: #DD1F2D;
+    border-bottom: 6px  solid #F2D1A0;
+    border-left: 6px  solid #F2D1A0;
+    border-right: 6px  solid #F2D1A0;
+}
+
+#srh{
+    background: #EE7429;
+    border-bottom: 6px  solid #221F21;
+    border-left: 6px  solid   #221F21;
+    border-right: 6px  solid  #221F21;
+}
+
+#dc{
+    background: #282968;
+    border-bottom: 6px  solid #D71921;
+    border-left: 6px  solid   #D71921;
+    border-right: 6px  solid  #D71921;
+}

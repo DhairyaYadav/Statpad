@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500&family=Roboto:wght@300&display=swap');
+body{
+    background: url("./stockimage/bckground.png");
+    background-size: 200%;
+}
+.toptext{
+    color: wheat;
+    padding-right: 209px;
+}
+
+#navbar1 {
+    border: 3px solid #7c94d2f7;
+    flex-direction: row;
+    /* background: url("iplimg1.jpg"); */
+    background: url("./stockimage/navbgdark.png");
+    background-size: 100%;
+    height: 15vh;
+    font-family: 'Lato', sans-serif;
+    /* border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+}
+
+#navbar2 {
+    border: 3px solid green;
+    flex-direction: row;
+    background: url("./stockimage/ipl4.jpg");
+    background-size: 100%;
+    height: 15vh;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo{
+    width: 15vw;
+    
+}
+
+#navbar2 ul {
+    margin: 9px 19px;
+    padding: 9px 19px;
+    font-size: 2.3rem;
+}
+
+
+#navbar2 ul li{
+    color: azure;
+    list-style: none;
+    padding: 9px 23px;
+    cursor: pointer;
+}
+
+#navbar2 ul li a{
+    color: azure;
+    list-style: none;
+    padding: 9px 23px;
+    cursor: pointer;
+}
+
+#navbar2 ul li:hover{
+    color: rgb(218, 130, 15);
+    border-bottom: 3px dashed rgb(218, 130, 15);
+}
+
+#navbar2 ul li:active{
+    opacity: 0.7;
+}
+
+#more-content {
+    display: none;
+    height: 10vh;
+}
+
+#more-content:hover {
+    display: block;
+    position: absolute;
+}
+
+#more-content li {
+    display: block;
+    background-color: rgba(0, 0, 255, 0.308);
+    font-size: 1.5rem;
+}
+
+#more-content li a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-right{
+    align-items: right;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.marg-auto{
+    margin: auto;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.fontweight{
+    font-weight: bold;
+}
+
+.spacebetween{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.Customheading{
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    margin: 50px 0 10px 30px;
+    
+}
+
+

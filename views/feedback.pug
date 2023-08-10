@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <nav id="navbar1" class="flex flex-row">
+        <h2 class="logo">Logo</h2>
+        <h2 class="toptext marg-auto uppercase fontweight">🎉Welcome to statpad🎉</h2>
+    </nav>
+    <nav id="navbar2">
+        <div class="flex align-center justify-center align-center">
+            <ul class="flex flex-row spacebetween uppercase fontweight">
+                <li><a href="/home" style="text-decoration: none;">Home</a></li>
+                <li><a href="/teams" style="text-decoration: none;">teams</a></li>
+                <li id="more">more &nbsp;<i class="fa fa-sort-desc " aria-hidden="true"></i>
+                    <div>
+                        <ul id="more-content">
+                            <li>about us</li>
+                            <li><a href="/feedback" style="text-decoration: none;">feedback</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="flex ">
+        <form action="/" method="post" class="flex flex-wrap">
+            <label  class="fontweight uppercase">Name: </label><input type="text" name="Name" placeholder="Enter your name">
+             <label class="fontweight uppercase" >Age: </label> <input type="text" name="Age" placeholder="Enter your age">
+             <label class="fontweight uppercase" >Gender: </label><input type="text" name="Gender" placeholder="Enter your gender">
+             <label class="fontweight uppercase" >Feedback: </label><textarea name="Feedback" id="" cols="30" rows="10"></textarea>
+             <button type="submit" class="fontweight uppercase">Submit</button>
+        </form>
+    </section>
+    <script src="teams.js"></script>
+</body>
+
+</html>

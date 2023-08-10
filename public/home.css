@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mogra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+/* body{
+    background: url("bckground.png");
+    background-size: 100%;
+} */
+#navbar1 {
+    border: 3px solid #7c94d2f7;
+    flex-direction: row;
+    /* background: url("iplimg1.jpg"); */
+    background: url("./stockimage/navbgdark.png");
+    background-size: 100%;
+    height: 45vh;
+    font-family: 'Lato', sans-serif;
+    /* border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+}
+
+#navbar2 {
+    border: 3px solid #7c94d2f7;
+    flex-direction: row;
+    /* background: url("iplimg1.jpg"); */
+    background: url("./stockimage/ipl4.jpg");
+    background-size: 100%;
+    height: 15vh;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo{
+    width: 15vw;
+    
+}
+
+#navbar2 ul {
+    margin: 9px 19px;
+    padding: 9px 19px;
+    font-size: 2.3rem;
+}
+
+
+#navbar2 ul li{
+    color: azure;
+    list-style: none;
+    padding: 9px 23px;
+    cursor: pointer;
+}
+
+#navbar2 ul li:hover{
+    color: rgb(218, 130, 15);
+}
+
+.fa{
+    display: inline-block;
+    font-size: inherit;
+}
+
+#Welcome{
+    /* background-color: goldenrod; */
+    /* background: url("welcomebg.png"); */
+    background-size:cover ;
+}
+
+#orange-cap{
+    border-radius: 37px;
+    background-image: url("./stockimage/orangebg.png");
+    height: 67vh;
+    width: 20vw;
+    box-shadow: 0px 0px 10px;
+}
+
+#message{
+    /* border: 3px solid blue; */
+    border-radius: 37px;
+    height: 67vh;
+    width: 58vw;
+    margin: 0 12px;
+    /* background-color: blue; */
+    
+}
+
+#message h1{
+    margin-top: 20px;
+    font-size: 6em;
+    font-family: 'Mogra', cursive;
+}
+
+.headimg{
+    
+    padding: 0px 2px;
+}
+.container{
+    padding: 20px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.headtext{
+    background: #0000002b;
+    margin: 20px 13px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#purple-cap{
+    border-radius: 37px;
+    height: 67vh;
+    width: 20vw;
+    float: left;
+    background-image: url("./stockimage/purplebg.png");
+    box-shadow: 0px 0px 10px;
+}
+
+#orange-cap h1,#purple-cap h1{
+    margin-top: 25px;
+    color: white;
+    padding: 11px 5px;
+    background: #ff450026;
+    word-spacing: 17px;
+    letter-spacing: 6px;
+    font-size: 2rem;
+}
+
+.capimg{
+    margin-top: 7px;
+}
+
+.firstname{
+    color:black;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding-top: 5px;
+    /* -webkit-text-stroke-color: gold;
+    -webkit-text-stroke-width: 0.3px; */
+}
+
+.lastname{
+    color:black;
+    font-size: 2rem;
+    -webkit-text-stroke-color: gold;
+    -webkit-text-stroke-width: 0.3px; 
+    letter-spacing: 1.1px;
+}
+
+#top4{
+    background-color: azure;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.top4img{
+    padding: 111px 14px;
+    background: url("./stockimage/ipl4.jpg");
+    width: 20vw;
+    height: 25vh;
+    box-shadow:0px 0px 16px ;
+    border-top-left-radius: 25px;
+}
+
+.topteam span {
+    color: red;
+    font-size: 1.2em;
+    font-family: 'Mogra', cursive;
+}
+
+.topteam span img{
+    margin-top: 12px;
+}
+
+#highlights{
+    height: 35vh;
+    width: 50%;
+    background: url("");
+    flex-direction: column;
+    padding-left: 14px;
+}
+
+footer{
+    background: rgb(255 255 255 / 92%);
+    height: 35vh;
+}
+
+#memories{
+    background-color: black;
+    color: whitesmoke;
+    width: 6vw;
+    height: 4vh;
+    padding: 2px 5px;
+}
+
+#sponsor{
+    font-size: larger;
+    width: 50%;
+    height: 35vh;
+}
+
+#sponsor img{
+    width: 20rem;
+    margin: 10px 21px;
+}
